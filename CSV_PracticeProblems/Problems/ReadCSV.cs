@@ -28,7 +28,7 @@ public class ReadCSV
 
             using (StreamReader sr=new StreamReader(filePath))
             {
-                string line;
+                string? line;
                 while ((line = sr.ReadLine()) != null)
                 {
                     Console.WriteLine(line);
