@@ -1,106 +1,53 @@
-# 🌉 BridgeLabz Training Program - Csharp_FileIO_Programming
+# C# File I/O and CSV Practice Problems
 
-Welcome to the official repository for **BridgeLabz .NET Fullstack Training**. This repository documents a comprehensive learning journey through Core C# programming Advanced, structured across three progressive difficulty levels.
+This repository contains a collection of C# practice problems focused on File I/O, Streams, and CSV processing. The problems are categorized into two main projects:
 
->  **Status**: Active Development  
->  **Target Framework**: .NET 10.0  
->  **IDE**: Visual Studio 2022+  
->  Author: : Sohil khan
+## 1. Stream Practice Problems (`Stream-PracticeProblems`)
+Focuses on fundamental C# streams and file handling techniques.
 
----
+### Problems:
+1. **File Read/Write with FileStream**: Basic reading and writing using `FileStream`.
+2. **Buffered vs Unbuffered Copy**: Comparing performance between standard and `BufferedStream`.
+3. **StreamReader and StreamWriter**: Practical usage for text file manipulation.
+4. **MemoryStream Processing**: Handling data in memory without physical files.
+5. **Binary Data Handling**: Using `BinaryReader` and `BinaryWriter` for structured data.
+6. **Thread-Safe File Logging**: Implementing a basic logger for multi-threaded environments.
+7. **Anonymous Pipes**: Inter-process communication using pipes.
+8. **File Compression**: Compressing and decompressing files using `GZipStream`.
+9. **Object Serialization**: Saving and loading objects using JSON serialization.
+10. **Custom Stream Wrapper**: Creating a custom stream for basic encryption/decryption.
 
-##  Repository Structure
+## 2. CSV Practice Problems (`CSV_PracticeProblems`)
+Intermediate and advanced problems specifically for CSV data manipulation.
 
-This repository is organized into three progressive levels, each building upon fundamental programming concepts:
+### Problems:
+1. **Read Data from CSV**: Basic reading and printing of CSV records.
+2. **Write Data to CSV**: Creating a CSV file from programmatic data.
+3. **Read and Count Rows**: Counting records in a CSV (excluding header).
+4. **Filter Records**: Extracting specific records based on criteria (e.g., marks > 80).
+5. **Search for a Record**: Finding specific data by a key (e.g., employee name).
+6. **Modify CSV Value**: Updating specific fields (e.g., 10% salary hike for IT).
+7. **Sort CSV Records**: Ordering data by a specific column (e.g., Salary descending).
+8. **Validate CSV Data**: Using Regex to validate Email and Phone number formats.
+9. **Convert CSV to Objects**: Mapping CSV rows to C# class objects.
+10. **Merge Two CSV Files**: Combining two files based on a common ID.
+11. **Large CSV Processing**: Efficiently reading 500MB+ files in small chunks.
+12. **Detect Duplicates**: Identifying duplicate records based on ID.
+13. **Database to CSV**: Simulating database export to a CSV report.
+14. **JSON <-> CSV Converter**: Interchanging data between JSON and CSV formats.
+15. **Encrypt CSV Data**: Protecting sensitive fields using encryption while writing.
 
-```
-Csharp_FileIO_Programming/
-├── Readme.md          # Project overview and structure
-└── .gitignore         # Git ignore configuration
-```
+## How to Run
+1. Navigate to the desired project folder:
+   ```bash
+   cd Stream-PracticeProblems
+   # or
+   cd CSV_PracticeProblems
+   ```
+2. Open `Program.cs` and uncomment the problem you want to execute.
+3. Run the project:
+   ```bash
+   dotnet run
+   ```
 
-```
-## Branch Structure
-Csharp_FileIO_Programming/
-├──filestream-problems         
-├── csv-handling          
-├── json-handling          
-├── main          
-
-
-```
-
-## Project Structure
-
-```
-
-**Last Updated**: January 2026
-Stream-PracticeProblems/
-├── Program.cs                 # Main entry point
-├── Stream-PracticeProblems.csproj
-├── Problems/                  # Practice problem solutions
-│   ├── BufferedFileCopy.cs
-│   ├── EmployeeSerialization.cs
-│   ├── FileReadWrite.cs
-│   ├── ImageToByteArray.cs
-│   ├── LargeFileErrorSearch.cs
-│   ├── PipedCommunication.cs
-│   ├── StudentDataBinary.cs
-│   ├── UppercaseToLowercase.cs
-│   ├── UserInputToFile.cs
-│   └── WordFrequencyCounter.cs
-├── Data Files
-│   ├── employees.json
-│   ├── source.txt
-│   ├── destination.txt
-│   ├── input_uppercase.txt
-│   ├── output_lowercase.txt
-│   ├── user_info.txt
-│   └── system_log.txt
-└── bin/, obj/                 # Build output
-```
-
-
-
-## Building the Project
-
-```bash
-dotnet build
-```
-
-## Running Tests
-
-```bash
-dotnet test
-```
-
-## Running the Application
-
-```bash
-dotnet run --project Projectname
-```
-
-## Features
-
-✅ Object-oriented design principles  
-✅ Exception handling and error management  
-✅ Data validation and input sanitization  
-✅ File I/O operations   
-✅ Performance measurement and optimization  
-✅ Comprehensive unit test coverage  
-✅ Real-world utility implementations  
-
-## Getting Started
-
-1. Clone or download the repository
-2. Open the solution file (`Stream-PracticeProblems.slnx`)
-3. Build the solution
-4. Review the utility classes in `Stream-PracticeProblems.App`
-5. Run the tests to verify functionality
-6. Explore the test cases to understand usage patterns
-
-## Notes
-
-This project is designed for learning and practice purposes, demonstrating best practices in C# development including SOLID principles, proper testing methodologies, and clean code practices.
-
----
+All sample data files are automatically generated in the `DataFiles` directory within each project.
