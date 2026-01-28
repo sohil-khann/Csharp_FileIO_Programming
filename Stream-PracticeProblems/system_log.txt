@@ -1,0 +1,7 @@
+INFO: System started.
+DEBUG: Checking configurations.
+ERROR: Failed to connect to database at 10:05 AM.
+INFO: User logged in.
+warning: Disk space low.
+error: Unauthorized access attempt detected.
+INFO: Background task completed.
