@@ -1,0 +1,5 @@
+Name,Email,Phone
+Alice,alice@test.com,1234567890
+Bob,invalid-email,9876543210
+Charlie,charlie@web.com,12345
+David,david@mail.org,0000000000
