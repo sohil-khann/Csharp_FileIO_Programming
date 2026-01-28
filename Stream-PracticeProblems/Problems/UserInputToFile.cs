@@ -46,17 +46,22 @@ namespace StreamPracticeProblems.Problems
                     Console.WriteLine($"\nInformation successfully saved to {filePath}");
                 }
                 StreamReader Reader = new StreamReader(filePath);
-               string read=Reader.ReadLine();
+                try{
+                string read = Reader.ReadLine();
                 Console.WriteLine("The content of the file is:");
-                while (read!=null)
+                while (read != null)
                 { 
                     Console.WriteLine(read);
                      read=Reader.ReadLine();
 
                 }
+                }catch(IOException ex)
+            {
+                Console.WriteLine($"I/O Error: {ex.Message}");
+            }
             }
          
-            catch (Exception ex)
+            catch (Exception ex )
             {
                 Console.WriteLine($"An unexpected error occurred: {ex.Message}");
             }
