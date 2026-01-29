@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "age": 28,
+        "department": "Engineering"
+    },
+    {
+        "id": 2,
+        "name": "Bob Smith",
+        "email": "bob@example.com",
+        "age": 34,
+        "department": "Sales"
+    },
+    {
+        "id": 3,
+        "name": "Carol Davis",
+        "email": "carol@example.com",
+        "age": 31,
+        "department": "Marketing"
+    },
+    {
+        "id": 4,
+        "name": "David Wilson",
+        "email": "david@example.com",
+        "age": 29,
+        "department": "Engineering"
+    },
+    {
+        "id": 5,
+        "name": "Eve Martinez",
+        "email": "eve@example.com",
+        "age": 26,
+        "department": "HR"
+    },
+    {
+        "id": 6,
+        "name": "Frank Brown",
+        "email": "frank@example.com",
+        "age": 35,
+        "department": "Finance"
+    },
+    {
+        "id": 7,
+        "name": "Grace Lee",
+        "email": "grace@example.com",
+        "age": 30,
+        "department": "Engineering"
+    },
+    {
+        "id": 8,
+        "name": "Henry Taylor",
+        "email": "henry@example.com",
+        "age": 32,
+        "department": "Operations"
+    },
+    {
+        "id": 9,
+        "name": "Ivy Anderson",
+        "email": "ivy@example.com",
+        "age": 27,
+        "department": "Sales"
+    },
+    {
+        "id": 10,
+        "name": "Jack Thomas",
+        "email": "jack@example.com",
+        "age": 33,
+        "department": "Engineering"
+    }
+]
